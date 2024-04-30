@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    position: relative;
+}
+
+.header,
+.footer {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.header {
+    top: 20px;
+}
+
+.footer {
+    bottom: 20px;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
